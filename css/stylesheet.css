@@ -178,10 +178,11 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 100%) {
     .middle-container {
       flex-direction: column;
       display: flex;
+      max-width: 100%;
     }
   
     h1 {
