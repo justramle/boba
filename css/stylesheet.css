@@ -6,21 +6,22 @@
   }
   
   body {
+    background-image: url("/images/bg.png");
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     padding: 20px;
     text-align: center;
     font-size: .92rem;
     font-weight: 300;
-    color: #d0acbe;
+    color: #d8a3be;
+    /* color: #fb9bcb; */
     position:relative;
-    background-image: url("images/bg.png");
   }
   
   /* Top Container */
   .top-container {
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
   }
   
   .top-container h1 {
@@ -32,7 +33,7 @@
     max-width: 100%; 
     height: auto; 
     width: auto; 
-    max-height: 600px; 
+    max-height: 100%; 
   }
   
   /* Middle Container */
@@ -104,8 +105,8 @@
   /* Contact Section */
   .contact-me {
     text-align: center;
-    /* margin: 10px auto 10px; */
-    padding: 10px;
+    padding: 20px 0 0 0;
+    line-height: 2;
   }
   
   .contact-me img {
@@ -121,9 +122,9 @@
     background-image: -ms-linear-gradient(top, #e9c243, #d861f0);
     background-image: -o-linear-gradient(top, #e9c243, #d861f0);
     background-image: -webkit-gradient(to bottom, #e9c243, #d861f0);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -146,9 +147,9 @@
     background-image: -ms-linear-gradient(top, #a1f089, #4891e4);
     background-image: -o-linear-gradient(top, #a1f089, #4891e4);
     background-image: -webkit-gradient(to bottom, #a1f089, #4891e4);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     text-decoration: none;
  }
 
@@ -176,6 +177,13 @@
     width: 40%;
     margin: 10px auto; 
   }
+
+  .solid-line{
+    border: solid #f1d5e3 5px;
+    border-bottom: none;
+    width: 100%;
+    /* margin: 10px auto; */
+  }
   
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -191,4 +199,38 @@
       font-size: 2.5rem;
     }
   }
+  /*animation  */
+.intro-ani {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+.intro-ani.visible {
+    opacity: 1;
+  }
+.code-ani {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .code-ani.visible {
+    opacity: 2;
+  }
+
+  .boba-ani {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  .boba-ani.visible {
+    opacity: 3;
+  }
+
+  .contact-ani {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  .contact-ani.visible {
+    opacity: 4;
+  }
+  
+  
   
