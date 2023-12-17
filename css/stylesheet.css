@@ -178,12 +178,23 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 100%) {
+  @media (max-width: 1028px) {
     .middle-container {
       flex-direction: column;
       display: flex;
       max-width: 100%;
     }
+
+    .skill-row{
+      max-width: 100%;
+    }
+    .skill-row .boba {
+      max-width: 30%;
+    
+  }
+  .skill-row .code-skill {
+    max-width: 30%;
+}
   
     h1 {
       font-size: 3rem;
