@@ -178,23 +178,18 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 1028px) {
+  @media (max-width: 768px) {
     .middle-container {
-      flex-direction: column;
-      display: flex;
       max-width: 100%;
-    }
-
-    .skill-row{
-      max-width: 100%;
-    }
-    .skill-row .boba {
-      max-width: 30%;
-    
   }
-  .skill-row .code-skill {
-    max-width: 30%;
-}
+
+  .skill-row {
+      max-width: 100%;
+  }
+
+  .skill-row .boba, .skill-row .code-skill {
+      max-width: 100%;
+  }
   
     h1 {
       font-size: 3rem;
@@ -204,6 +199,7 @@
       font-size: 2.5rem;
     }
   }
+  
   /*animation  */
 .intro-ani {
     opacity: 0;
