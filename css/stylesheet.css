@@ -89,7 +89,6 @@
 .skill-row .boba {
     max-width: 24%;
     height: auto;
-    border-radius: 10px;
     float:right;  
 }
   
@@ -180,20 +179,35 @@
   /* Responsive Design */
   @media (max-width: 768px) {
     .middle-container,
+    .intro,
     .skill-row,
     .skill-row .boba,
     .skill-row .code-skill {
         width: 100%; 
         max-width: none;
+        font-weight: 350;
+        font-size: 1.2rem;
     }
+
+    .skill-row .code-skill {
+      max-width: 50%;
+      float: left;
+  }
   
-    h1 {
+  .skill-row .boba {
+      max-width: 40%;
+      float:right;  
+  }
+  
+    h2 {
       font-size: 3rem;
     }
   
-    h2 {
-      font-size: 2.5rem;
+    h3 {
+      font-size: 1.4rem;
+      font-weight: bold;
     }
+
   }
 
   /*animation  */
