@@ -29,7 +29,6 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    /* border: 0px solid #d8a3be; */
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(216, 163, 190, 0.5);
 }
