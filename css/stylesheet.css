@@ -223,8 +223,8 @@
     .top-container {
       flex-direction: column;
       height: auto;
-      margin: 70px 10px;
-      padding: 20px;
+      margin: 30px 0px;
+      padding: 10px;
   }
 
   .right-contents img {
@@ -240,7 +240,7 @@
 
   
     .skill-row .code-skill {
-      max-width: 50%;
+      max-width: 60%;
       float: left;
   }
   
