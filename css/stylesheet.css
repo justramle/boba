@@ -22,34 +22,48 @@
   
   /* Top Container */
   .top-container {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  
- /* h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 5rem;
-  } */
-  
-  .top-container .header-image {
-    max-width: 100%; 
+    height:30vw;
+    margin: 100px 90px;
+    padding: 50px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* border: 0px solid #d8a3be; */
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(216, 163, 190, 0.5);
+}
+
+.right-contents img{
+    flex: 1;
+    max-width: 100%;
     height: auto;
-    width: auto; 
-    max-height: 100%
-  }
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid #d8a3be;
+
+}
+
+.left-contents{
+    flex: 1;
+  
+}
+
   
   /* Middle Container */
   .middle-container {
     margin: 30px 0;
   }
     
-  .intro{
-    width: 60%;
-    margin: auto;
-  }
 
   h2 {
     font-family: 'Sacramento', cursive;
+    color: #d8a3be;
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  h1 {
+    font-family: 'sans-serif', cursive;
     color: #d8a3be;
     font-size: 3rem;
     margin: 10px 0;
@@ -59,6 +73,12 @@
     font-family: 'Montserrat', sans-serif;
     color: #fb9bcb;
     margin: 0px;
+  }
+  h4 {
+    font-family: 'Sacramento', cursive;
+    color: #fb9bcb;
+    font-size: 2.5rem;
+    margin: 10px 0;
   }
 
   a{
@@ -73,6 +93,13 @@
   }
   
   /* Skill Rows */
+  .intro{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
+  }
   .skill-row {
     width: 50%;
     margin: auto;
@@ -194,14 +221,25 @@
       background-attachment: fixed;
     }
 
-    /* .top-container .header-image {
-      max-width: 100%; 
-      height: 100%;
-      width: 100%; 
-      max-height: 100%
-    } */
+    .top-container {
+      flex-direction: column;
+      height: auto;
+      margin: 70px 10px;
+      padding: 20px;
+  }
 
+  .right-contents img {
+      width: 75%;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
 
+  .left-contents, .right-contents {
+      width: 100%;
+      text-align: center;
+  }
+
+  
     .skill-row .code-skill {
       max-width: 50%;
       float: left;
@@ -214,6 +252,12 @@
   
     h2 {
       font-size: 2.5rem;
+    }
+    h1{
+      font-size: 2rem;;
+    }
+    h4{
+      font-size: 1.6rem;;
     }
   
     h3 {
@@ -256,5 +300,12 @@
     opacity: 3;
   }
   
+
+
+
+
+
+
+
   
   
